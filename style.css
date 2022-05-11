@@ -1,0 +1,28 @@
+img{
+    height: 30%;
+}
+.card{
+    width: 200px;
+    height: 275px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin: 0 auto;
+    width: 50%;
+}
+.col-3{
+    width: calc(100%/12*3);
+}
